@@ -16,13 +16,18 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+@import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css'
+@import '../node_modules/@fortawesome/fontawesome-free/css/brands.css'
+@import '../node_modules/@fortawesome/fontawesome-free/css/regular.css'
+@import '../node_modules/@fortawesome/fontawesome-free/css/solid.css'
+
+#app
+  font-family: 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
+  color: #2c3e50
+  margin-top: 60px
 </style>
